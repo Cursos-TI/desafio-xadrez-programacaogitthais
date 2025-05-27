@@ -40,12 +40,12 @@ int main() {
     printf("\nMovimento do Cavalo:\n");
 
     // Definindo quantas casas o cavalo vai se mover
-    int movimentosBaixo = 2;
-    int movimentosEsquerda = 1;
+    int movimentosCima = 2;
+    int movimentosDireita = 1;
 
     // Loop externo (for) para mover para baixo
-    for (int x = 0; x < movimentosBaixo; x++) {
-        printf("Baixo\n");
+    for (int x = 0; x < movimentosCima; x++) {
+        printf("Cima\n");
 
         // Loop interno (while) dentro do for
         int y = 0;
@@ -57,8 +57,8 @@ int main() {
 
     // Movimento final do "L": uma casa para a esquerda
     int k = 0;
-    while (k < movimentosEsquerda) {
-        printf("Esquerda\n");
+    while (k < movimentosDireita) {
+        printf("Direita\n");
         k++;
     }
 
